@@ -55,7 +55,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Movies_Corner20')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/zsbhere')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/cornersofficial')
 
-AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "") # add multiple channels here, separated by single space
+AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1001779351808 -1002711457783 -1002600403677 -1002874328736") # add multiple channels here, separated by single space
 AUTH_CHANNEL = [int(ch) for ch in AUTH_CHANNEL.strip().split()] if AUTH_CHANNEL else []
 AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '') # add multiple channels here, separated by single space
 AUTH_REQ_CHANNEL = [int(ch) for ch in AUTH_REQ_CHANNEL.strip().split()] if AUTH_REQ_CHANNEL else []
@@ -65,21 +65,21 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001588212650'))
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001588212650'))
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/how_to_dwnload/54")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/how_to_dwnload/54")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/how_to_dwnload/54")
 
-SHORTENER_API = environ.get("SHORTENER_API", "")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "")
+SHORTENER_API = environ.get("SHORTENER_API", "d803e5a46aee6e864d0c7b73804c4914d408210d")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "gplinks.com")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "d803e5a46aee6e864d0c7b73804c4914d408210d")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "gplinks.com")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "d803e5a46aee6e864d0c7b73804c4914d408210d")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "gplinks.com")
 
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "120"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "1200"))
 
 MOVIE_UPDATE_NOTIFICATION = bool(environ.get("MOVIE_UPDATE_NOTIFICATION", False))
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
@@ -145,8 +145,8 @@ else:
 REACTIONS = ["🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"]
 
 STAR_PREMIUM_PLANS = {
-    1: "7day",
-    30: "15day",    
+    1: "1day",
+    30: "30day",    
     60: "1month", 
     120: "2month",   
 }
