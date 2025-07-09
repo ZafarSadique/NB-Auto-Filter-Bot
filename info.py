@@ -45,8 +45,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "majority")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', '0')
 
 # If MULTIPLE_DB Is Truehttps://telegra.ph/file/a439bb862bc2d7044a007.jpg Then Fill DATABASE_URI2 Value Else You Will Get Error.
-MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False) # Type True For Turn On MULTIPLE DB FUNTION 
-DATABASE_URI2 = environ.get('DATABASE_URI2', "")
+MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), True) # Type True For Turn On MULTIPLE DB FUNTION 
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Cornerxleech1:cornerleech1@cluster0.j4lbjtj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Request_Corner')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Movies_Corner20')
