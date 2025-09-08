@@ -55,7 +55,7 @@ UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/Movies_Corn
 
 #Force Subscription Channel (Put Same Channel Id In Both Veriables)
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1001779351808')) 
-AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL','-1002837453220'))
+AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL','-1003052974134'))
 #-------------------------------------------------------------------------
 AUTH_CHANNELS = [int(auth_channels) for auth_channels in environ.get('AUTH_CHANNELS', '-1002711457783 -1002711023604').split()]
 
